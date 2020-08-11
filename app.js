@@ -1,4 +1,4 @@
-const getChuck = require("chuck");
+const getChuck = require("./chuck");
 
 getChuck()
   .then((response) => console.log(response))
